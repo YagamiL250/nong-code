@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.add-paper {
+    width: 400px;
+    height: 800px;
+    border-radius: 50px;
+    background: #FFE4B5;
+}
+.kum {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.link {
+    position: relative;
+    top: 250px;
+    left: 170px;
+    padding: 10px 30px;
+    background: linear-gradient(20deg, #FFFF66, #99CCFF);
+    border-radius: 10px;
+}
