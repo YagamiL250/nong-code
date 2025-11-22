@@ -12,7 +12,7 @@ function searchPage() {
                 // ถ้ามี → ไปหน้าเลย
                 window.location.href = fileName;
             } else {
-                alert("ไม่พบหน้า: " + fileName);
+                alert( "เลขที่" + name +"-ไม่มีหน้า/หาตัวเจอแล้ว");
             }
         })
         .catch(() => {
