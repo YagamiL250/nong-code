@@ -19,3 +19,26 @@ function searchPage() {
             alert("ไม่พบหน้า: " + fileName);
         });
 }
+
+const particleCount = 100;
+const body = document.body
+
+for (let i = 0; i < particleCount; i++) {
+    let p = document.createElement("div");
+    p.classList.add("particleCount");
+
+    let size = Math.random() * 4 + 1.5;
+    p.style.width = size + "px";
+    p.style.height = size +"px";
+
+    p.style.left = Math.random() * 100 + "%";
+
+    p.style.animationDelay = Math.random() * 8 + "s";
+
+    let duraticon  = Math.random() + 8 + 2;
+    p.style.animationDuration = duraticon + "s";
+
+    p.style.top = Math.random() * 20 + 100 + "%";
+
+    body.appendChild(p);
+}
